@@ -1,0 +1,176 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.main{
+    height: 100vh;
+}
+.main nav{
+    padding: 40px 30px;
+}
+.main nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.main nav ul .left{
+    display: flex;
+   
+}
+.main nav ul .right{
+    display: flex;
+}
+.main nav ul .left .logo{
+    margin-right: 60px;
+
+}
+.main nav ul .left .buttons{
+    margin-inline: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: rgb(129, 141, 150);
+    transition: 0.5s;
+    font-size: 15px;
+
+}
+.main nav ul .left .buttons:hover{
+    color: rgb(80, 89, 96);
+}
+.main nav ul .left .buttons img{
+    margin-left: 5px;
+}
+.main nav ul .right li{
+    margin-inline: 20px;
+}
+.main nav ul .right li  button{
+    border: none;
+    background-color: transparent;
+    color: rgb(73, 81, 88);
+    padding: 10px 20px;
+   
+    cursor: pointer;
+    transition: 0.5s;
+    font-weight: 500;
+    font-size: 15px;
+
+
+}
+.main nav ul .right li  button:hover{
+    color: white;
+    border-color: rgb(25, 19, 19);
+    background-color: black;
+}
+.main nav ul .right li  button.second-button{
+    border: 1px solid black;
+    border-radius:15px ;
+    text-align: center;
+
+}
+.wrapper{
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+
+}
+.wrapper .left{
+    width:50% ;
+    padding: 50px;
+
+
+}
+.wrapper .left h1{
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.wrapper .left p{
+    font-size: 20px;
+    color: rgb(64, 73, 82);
+    line-height: 30px;
+    margin-bottom: 40px;
+
+}
+.wrapper .left button{
+
+    color: white;
+    background-color:black ;
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: 1px solid rgb(23, 21, 21);
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 130px;
+    transition: .4s;
+
+}
+.wrapper .left button:hover{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+.wrapper .left .footer {
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.wrapper .left .footer img{
+   width: 50%;
+   margin-inline: 20px;
+}
+
+.wrapper .right{
+    width: 45%;
+   
+}
+.wrapper .right img{
+    width: 100%;
+    height: auto;
+}
+.feature{
+    width: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 5px;
+    padding-left: 20px;
+    position: absolute;
+    top:80px;
+    left:135px ;
+
+
+}
+.feature p{
+    margin: 10px 0;
+}
+.feature img{
+    margin-right: 5px;
+
+}
+.company{
+    width: 100px;
+    background-color: white;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    padding: 10px 5px;
+    padding-left: 15px;
+    position: absolute;
+    top:80px;
+    left:305px ;
+
+}
+.company p{
+    padding-left: 8px;
+    margin: 10px 0;
+}
+.display-none{
+    display:none ;
+    transition: 4s;
+}
